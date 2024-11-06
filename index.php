@@ -112,6 +112,12 @@ $url = "http://" . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['PHP_SELF']), 
             </a>
           </li>
 
+          <li class="hobbies" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="1100">
+            <a href="#hobbies" aria-label="hobbies menu button">
+                &#60;/Hobbies&#62;
+            </a>
+          </li>
+
           <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
             <a href="#skills" aria-label="skills menu button">
               &#60;/Skills&#62;
@@ -129,6 +135,7 @@ $url = "http://" . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['PHP_SELF']), 
               &#60;/Contact&#62;
             </a>
           </li>
+
         </ul>
       </div>
       <!-- navbar tabs ends -->
@@ -159,6 +166,11 @@ $url = "http://" . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['PHP_SELF']), 
         <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
           <a href="#about" tabindex="0" aria-label="about menu button">
             &#60;/AboutMe&#62;
+          </a>
+        </li>
+        <li id="hobbies-mobile-tab" class="mobile-navbar-tabs-li hobbies" onclick="hidemenubyli()">
+          <a href="#hobbies" tabindex="0" aria-label="hobbies menu button">
+            &#60;/Hobbies&#62;
           </a>
         </li>
         <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
@@ -283,24 +295,58 @@ $url = "http://" . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['PHP_SELF']), 
 
                     <div class="info-dp-section">
                         <div class="about-info">
-                        <p tabindex="0">
+                            <p tabindex="0">
                                 Hi! My name is AETHER. I'm a web developer and digital visual artist. I love creating things that exist on the internet. My interest in web development started in 2021 when I decided to upload my digital concept arts online.
                             </p>
                             <br />
                             <p tabindex="0">
-                                Instead of creating an online Concepts Art website, i started enjoying web development. Creating custom things for web taught me a lot about design & development!
+                                Instead of creating an online Concepts Art website, I started enjoying web development. Creating custom things for the web taught me a lot about design & development!
                             </p>
                             <br />
                             <p tabindex="0">
-                                My main focus these days is building interesting & creative web designs, I like to code things from scratch, and enjoy bringing ideas to life in the browser.
+                                My main focus these days is building interesting & creative web designs. I like to code things from scratch and enjoy bringing ideas to life in the browser.
                             </p>
-
                             <div class="text">Resume</div>
-                            </button>
                         </div>
 
                         <div class="dp" data-aos="fade-up">
                             <img src="src/png/aether.jpg" alt="AETHER - Web Developer and Digital Visual Artist" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- about section ends  -->
+
+            <section class="about-section-container" id="hobbies" data-aos="fade-up">
+                <div class="about-section">
+                    <div class="section-heading">
+                        <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
+                            &#60;/Hobbies&#62;
+                        </h2>
+                        <p class="sectionHeadingP"></p>
+                    </div>
+
+                    <div class="info-dp-section">
+                        <div class="about-info">
+                            <p tabindex="0">
+                            My hobbies include the art of music and the world of programming, two things that give me the opportunity to be creative and grow.
+                            </p>
+                            <br />
+                            <p tabindex="0">
+                            Playing guitar is my way of expressing feelings through melody, while as a vocalist, I can connect emotions through sound.
+                            </p>
+                            <br />
+                            <p tabindex="0">
+                            Meanwhile, in the world of programming, I find challenges in creating new solutions, turning ideas into reality, and solving problems with logic and creativity.
+                            </p>
+                            <div class="text">Resume</div>
+                        </div>
+
+                        <div class="dp" data-aos="fade-up">
+                            <video controls style="width: 92%; height: auto;">
+                                <source src="src/mp4/playing-guitar.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
                 </div>

@@ -2188,3 +2188,66 @@ button[type="submit"]:hover::before {
         padding: 1.5rem;
     }
 }
+
+.hobbies-section-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 80px 0;
+    background-color: var(--color-dark-mode);
+}
+
+.hobbies-section {
+    width: 80%;
+    /* Adjust as needed */
+    background-color: var(--color-light-mode);
+    /* Change to match About Me */
+    border-radius: 10px;
+    /* Add rounded corners */
+    padding: 2rem;
+    /* Add padding */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    /* Add shadow for depth */
+}
+
+.section-heading {
+    margin-bottom: 1.5rem;
+    /* Space below heading */
+}
+
+.hobbies-info {
+    font-size: 1.5rem;
+    /* Adjust font size */
+    line-height: 1.6;
+    /* Adjust line height for readability */
+}
+
+.hobbies-info ul {
+    list-style-type: none;
+    /* Remove default list styling */
+    padding: 0;
+    /* Remove padding */
+}
+
+.hobbies-info li {
+    margin: 0.5rem 0;
+    /* Space between list items */
+    padding: 0.5rem;
+    /* Padding for list items */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Light background for list items */
+    border-radius: 5px;
+    /* Rounded corners for list items */
+}
+
+.responsive-video {
+    width: 100%;
+    /* Mengatur lebar video agar sesuai dengan lebar kontainer */
+    height: auto;
+    /* Tinggi otomatis untuk menjaga rasio aspek */
+    border-radius: 10px;
+    /* Tambahkan sudut melengkung jika diperlukan */
+}
