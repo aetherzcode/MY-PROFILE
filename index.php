@@ -106,13 +106,13 @@ $url = "http://" . $_SERVER['HTTP_HOST'] . rtrim(dirname($_SERVER['PHP_SELF']), 
             </a>
           </li>
 
-          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="250">
             <a href="#about" aria-label="about menu button">
               &#60;/AboutMe&#62;
             </a>
           </li>
 
-          <li class="hobbies" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="1100">
+          <li class="hobbies" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="350">
             <a href="#hobbies" aria-label="hobbies menu button">
                 &#60;/Hobbies&#62;
             </a>
